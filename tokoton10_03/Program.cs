@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tokoton10
+namespace tokoton10_03
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 123;
-            Console.WriteLine($"{a},{a.GetType().FullName}");
+            var array = new[] { 1, 2, 3 };
+
+            Console.WriteLine(array.GetType().FullName);
+
             Console.ReadLine();
+
+
         }
     }
 }

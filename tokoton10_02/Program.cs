@@ -4,14 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tokoton10
+namespace tokoton10_02
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 123;
-            Console.WriteLine($"{a},{a.GetType().FullName}");
+            var a = 1u;
+
+            var b = a;
+            Console.WriteLine(b.GetType().FullName);
+
             Console.ReadLine();
         }
     }
